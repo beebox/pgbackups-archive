@@ -14,7 +14,8 @@ Gem::Specification.new do |s|
 
   s.add_dependency "bundler", ">= 1.2.3"
   s.add_dependency "fog",     ">= 1.4.0"
-  s.add_dependency "heroku",  "~> 2.34.0"
+  # lowering heroku from ~>2.34.0
+  s.add_dependency "heroku",  "~> 2.19"
   # lowering rake from >=0.9.2.2
   s.add_dependency "rake",    ">= 0.8.7"
 
